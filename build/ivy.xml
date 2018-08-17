@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="com.dengquan" module="jarplugin" revision="1.0.1" status="integration" publication="20180803180054"/>
+  <info organisation="com.dengquan" module="jarplugin" revision="1.3.09" status="integration" publication="20180817143959"/>
   <configurations>
     <conf name="apiElements" visibility="private" extends="runtime"/>
     <conf name="archives" visibility="public"/>
@@ -31,6 +31,6 @@
     <dependency org="com.squareup" name="javapoet" rev="1.8.0" conf="compile-&gt;default"/>
     <dependency org="org.jooq" name="joor" rev="0.9.6" conf="compile-&gt;default"/>
     <dependency org="org.codehaus.groovy" name="groovy" rev="2.4.12" conf="compile-&gt;default"/>
-    <dependency org="com.android.tools.build" name="gradle" rev="3.1.3" conf="implementation-&gt;default"/>
+    <dependency org="com.android.tools.build" name="gradle" rev="3.0.1" conf="implementation-&gt;default"/>
   </dependencies>
 </ivy-module>

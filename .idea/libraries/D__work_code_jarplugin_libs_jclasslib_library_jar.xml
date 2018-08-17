@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="D__work_code_jarplugin_libs_jclasslib_library_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jclasslib-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

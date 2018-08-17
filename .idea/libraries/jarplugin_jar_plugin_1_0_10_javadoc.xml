@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jarplugin.jar-plugin-1.0.10-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/jar-plugin-1.0.10-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

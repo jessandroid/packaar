@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.dengquan</groupId>
   <artifactId>jar-plugin</artifactId>
-  <version>1.0.1</version>
+  <version>1.3.09</version>
   <dependencies>
     <dependency>
       <groupId>com.squareup</groupId>
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>com.android.tools.build</groupId>
       <artifactId>gradle</artifactId>
-      <version>3.1.3</version>
+      <version>3.0.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
