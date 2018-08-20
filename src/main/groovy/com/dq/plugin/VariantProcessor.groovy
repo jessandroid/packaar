@@ -303,6 +303,7 @@ class VariantProcessor {
             for (File file : thirdProguardFiles) {
                 if (file.exists()) {
                     println("add proguard file :" + file.path)
+                    mergeFileTask.getInputs().file(file)
                 }
             }
         }
@@ -410,7 +411,7 @@ class VariantProcessor {
                     if(file.exists()){
                         file.delete()
                     }else {
-
+                        println 'excludeFileError : ' + file.path + ' not exist'
                     }
                 }
             }
