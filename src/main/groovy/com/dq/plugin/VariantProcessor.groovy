@@ -75,7 +75,8 @@ class VariantProcessor {
             return
         }
 
-        processManifest()
+
+//        processManifest()
 
         processResourcesAndR()
 
